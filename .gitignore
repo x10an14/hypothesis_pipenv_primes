@@ -1,0 +1,7 @@
+# Python specific stuff:
+*.pyo
+*.pyc
+__pycache__/
+
+# Pipenv specific:
+.cache/
