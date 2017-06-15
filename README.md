@@ -12,3 +12,10 @@
 1. Follow "Install instructions" and step 4.ii.
 2. In root of repo folder; `pipenv shell`
 3. `python -m pytest tests/ --hypothesis-show-statistics`
+
+## Development instructions:
+Remember to commit any changes to [Pipfile](https://github.com/x10an14/hypothesis_pipenv_primes/blob/master/Pipfile) or [Pipfile.lock](https://github.com/x10an14/hypothesis_pipenv_primes/blob/master/Pipfile.lock) to git.
+### If you want to install a new library dependency:
+`pipenv install <pypi package or something>`
+### If you want to install a new dev-dependency:
+`pipenv install --dev <pypi package or something>`
