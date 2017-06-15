@@ -5,8 +5,8 @@
 2. `cd` into repo folder.
 3. `pipenv --three` or `pipenv --python <your python3 flavor>`
 4. Choose between (may be mutually exclusive, depending on dependencies):
-    1. `pipenv install -r Pipfile.lock` for using library.
-    2. `pipenv install -r --dev Pipfile` for developing.
+    1. `pipenv install` for using library (currently not necessary due to zero dependencies).
+    2. `pipenv install --dev` for developing.
 
 ## Testing instructions:
 1. Follow "Install instructions" and step 4.ii.
