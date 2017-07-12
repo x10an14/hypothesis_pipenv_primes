@@ -1,7 +1,10 @@
 # Hypothesis Test-framework and Pipenv playground
 
 ## Install instructions:
-1. Install [Pipenv](http://docs.pipenv.org/en/latest/advanced.html#fancy-installation-of-pipenv): `curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python`
+1. Install [Pipenv](http://docs.pipenv.org/en/latest/advanced.html#fancy-installation-of-pipenv): 
+    1. `curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python`
+    2. `pipsi install pew`
+    3. `pipsi install pipenv`
 2. `cd` into repo folder.
 3. `pipenv --three` or `pipenv --python <your python3 flavor>`
 4. Choose between (may be mutually exclusive, depending on dependencies):
