@@ -1,0 +1,7 @@
+pipeline:
+  test:
+    image: library/python
+    commands:
+      - python -m venv pipenv && pipenv/bin/pip install -U pip && pipenv/bin/pip install pipenv
+      - pipenv/bin/pipenv install --dev
+      - pipenv/bin/pipenv run python -m pytest tests --hypothesis-show-statistics
